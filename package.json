@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Smart brain backend server",
   "main": "script.js",
-  "scripts": {
-    "start": "nodemon server.js"
-  },
   "author": "Devavrat Singh",
   "license": "ISC",
   "dependencies": {
