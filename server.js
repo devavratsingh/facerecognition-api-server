@@ -10,10 +10,8 @@ const image = require('./controllers/image');
 const db = knex({
   client: 'pg',
   connection: {
-    host : 'postgresql-spherical-66657',
-    user : 'tdmzvucjtdrblr',
-    password : '95fa83085312a5061b040dfcd609813b5514adfa3de88a9f7d8fa8acf7bc3538',
-    database : 'd1jaccptucai4i'
+    host : process.env.DATABASE_URL,
+    ssl:true
   }
 });
 
